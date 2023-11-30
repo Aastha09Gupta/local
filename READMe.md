@@ -189,6 +189,6 @@ datasets=pd.concat([sub_df['Id'],pred],axis=1)
 datasets.columns=['Id','SalePrice']
 datasets.to_csv('housepricetuned.csv',index=False)
 ```
-#### Got an RMSE score of 0.14036 on kaggle leaderboard
+
 ### Results
 #### We got a slight improvement with hyperparameter tuning (from 0.14065 to 0.14036). Needs more tuning!
